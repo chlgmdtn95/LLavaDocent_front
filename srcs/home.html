@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="flex flex-row">
+		<!-- 사이드바 -->
+		<div class="flex flex-col h-[1200px] w-[300px] bg-gray-200 rounded-2xl shadow-xl items-center pt-8">
+			<h1 class="text-4xl mb-4">LLava-Docent</h1>
+			<div class="rounded-full bg-white max-h-48 max-w-48 mb-12">
+				<img src="./public/llama_logo.png">
+			</div>
+
+			<a class="nav-btn text-3xl font-bold rounded-2xl bg-blue-300 w-48 h-12 m-4 flex items-center justify-center hover:bg-blue-200" href="home.html" >소개</a>
+			<a class="nav-btn text-3xl font-bold rounded-2xl w-48 h-12 m-4 flex items-center justify-center hover:bg-blue-200" href="select.html">작품선택</a>
+			<a class="nav-btn text-3xl font-bold rounded-2xl w-48 h-12 m-4 flex items-center justify-center hover:bg-blue-200" href="chat.html">채팅</a>
+		</div>
+
+		<div class="flex flex-col p-16 ml-8 h-screen w-screen items-center overflow-x-auto overflow-y-auto">
+			<div class="w-[1200px] rounded-2xl shadow-xl p-6">
+				<p class="text-6xl font-bold text-center mb-16">LLava-Docent 소개</p>
+					<div class="text-xl space-y-6">
+						<p>LLava-Docent는 인공지능 기술을 활용한 개인 맞춤형 미술 작품 도슨트 서비스입니다. 시각적 이해 능력과 자연어 처리 기술을 결합하여 미술 작품에 대한 깊이 있는 대화형 설명을 제공합니다.</p>
+
+						<h2 class="text-3xl font-bold mt-8 mb-4">주요 기능</h2>
+						<ul class="list-disc pl-6 space-y-2">
+							<li>다양한 미술 작품에 대한 상세한 설명과 해석</li>
+							<li>작품에 대한 반응, 기술적 특징, 분석, 해석 등 다각도 관점 제공</li>
+							<li>사용자의 질문에 맞춤형 답변 제공</li>
+							<li>작품의 역사적 맥락과 작가에 대한 배경 정보 제공</li>
+							<li>사용자의 관심사에 맞는 추천 작품 제안</li>
+						</ul>
+
+						<h2 class="text-3xl font-bold mt-8 mb-4">이용 방법</h2>
+						<ol class="list-decimal pl-6 space-y-2">
+							<li><strong>작품 선택:</strong> '작품선택' 메뉴에서 관심 있는 작품을 선택하세요.</li>
+							<li><strong>대화 시작:</strong> 작품에 대해 궁금한 점이나 더 알고 싶은 내용을 질문하세요.</li>
+							<li><strong>다양한 관점 탐색:</strong> '반응', '기술', '분석', '해석' 탭을 통해 작품에 대한 다양한 시각을 경험하세요.</li>
+							<li><strong>대화 저장:</strong> 모든 대화는 자동으로 저장되어 나중에 다시 볼 수 있습니다.</li>
+						</ol>
+
+						<h2 class="text-3xl font-bold mt-8 mb-4">기술 소개</h2>
+						<p>LLava-Docent는 Meta의 Llama 기반 대규모 언어 모델과 시각적 이해 기능이 결합된 최신 멀티모달 AI 기술을 활용합니다. 이를 통해 이미지를 '보고' 이해하며, 작품에 대한 전문적인 지식을 자연스러운 대화 형태로 제공합니다.</p>
+
+						<h2 class="text-3xl font-bold mt-8 mb-4">LLava-Docent의 비전</h2>
+						<p>미술 감상은 더 이상 전문가만의 영역이 아닙니다. LLava-Docent는 모든 사람이 미술 작품을 더 깊이 이해하고 감상할 수 있도록 돕는 것을 목표로 합니다. 개인의 관심사와 배경지식에 맞춰 작품을 설명함으로써, 미술관에서의 경험을 더욱 풍요롭게 만들고 예술에 대한 접근성을 높이고자 합니다.</p>
+
+						<p class="italic mt-8">* LLava-Docent는 지속적으로 발전하고 있으며, 더 많은 작품과 기능이 추가될 예정입니다.</p>
+					</div>
+			</div>
+		</div>	
+	</div>
+</body>

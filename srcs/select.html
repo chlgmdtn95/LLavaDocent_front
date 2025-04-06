@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="flex flex-row">
+		<!-- 사이드바 -->
+		<div class="flex flex-col h-[1200px] w-[300px] bg-gray-200 rounded-2xl shadow-xl items-center pt-8">
+			<h1 class="text-4xl mb-4">LLava-Docent</h1>
+			<div class="rounded-full bg-white max-h-48 max-w-48 mb-12">
+				<img src="./public/llama_logo.png">
+			</div>
+			<a class="nav-btn text-3xl font-bold rounded-2xl w-48 h-12 m-4 flex items-center justify-center hover:bg-blue-200" href="home.html" >소개</a>
+			<a class="nav-btn text-3xl font-bold rounded-2xl bg-blue-300 w-48 h-12 m-4 flex items-center justify-center hover:bg-blue-200" href="select.html">작품선택</a>
+			<a class="nav-btn text-3xl font-bold rounded-2xl w-48 h-12 m-4 flex items-center justify-center hover:bg-blue-200" href="chat.html">채팅</a>
+		</div>
+
+		<div class="flex flex-col p-16 ml-8 h-screen w-screen items-center overflow-x-auto overflow-y-auto">
+			<div class="flex flex-col gap-4">
+				<p class="text-6xl font-bold text-center mb-16">작품을 선택하세요</p>
+				<div class="flex flex-row rounded-2xl w-[1200px] shadow-xl p-6 overflow-x-auto">
+					<div class="shadow-2xl p-2 hover:bg-gray-100">
+						<img src="./public/gogh.jpg" class="w-96 h-96 rounded-xl shadow-xl transition-all hover:grayscale">
+					</div>
+					<div class="shadow-2xl hover:bg-gray-100 p-2">
+						<img src="./public/keith.jpg" class="w-96 h-96 rounded-xl shadow-xl transition-all hover:grayscale">
+					</div>
+					<div class="shadow-2xl hover:bg-gray-100 p-2">
+						<img src="./public/korea.jpg" class="w-96 h-96 rounded-xl shadow-xl transition-all hover:grayscale">
+					</div>
+					<div class="shadow-2xl hover:bg-gray-100 p-2">
+						<img src="./public/renoir.jpg" class="w-96 h-96 rounded-xl shadow-xl transition-all hover:grayscale">
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
